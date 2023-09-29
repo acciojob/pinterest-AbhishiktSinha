@@ -1,1 +1,53 @@
 /*  your css code here. If applicable */
+.hero{
+	height: 40vh;
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: left;
+}
+.image_container{
+	height: 100%;
+    width: 60%;
+    min-width: 200px;
+    background-color: black;
+    /* margin-right: 10px; */
+}
+.image{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero_text{
+    margin-inline: 3%;
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-inline: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    margin-right: 15px;
+    margin-bottom: 0;
+    width: 70%;
+    font-size: x-large;
+    font-weight: 800;
+    text-align: center;
+}
+.bottom_text{
+    margin-right: 15px;
+    width: 70%;
+    text-align: center;
+}
+.btn{
+    border-radius: 5px;
+    border: none;
+    margin-right: 15px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+}
